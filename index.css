@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sono', sans-serif;
+}
+
+
+.landingpagebg {
+    background-color: black;
+    height: 600px;
+}
+
+.navbg {
+    background-color: rgb(76, 76, 76);
+    height: 50px;
+    color: white;
+    padding-top: 5px;
+}
+
+.navlogo {
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+#navimg {
+    width: 30px;
+    height: 30px;
+}
+
+.listbg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 710px;
+    margin-left: 400px;
+    margin-top: -30px;
+    list-style-type: none;
+}
+
+.listbg a {
+    text-decoration: none;
+}
+
+.li:hover {
+    background-color: blue;
+}
+
+
+li {
+    
+    background-color: rgb(161, 160, 160);
+    color: black;
+    font-family: 'Pacifico', cursive; 
+    padding: 3px;
+    border-radius: 7px;
+    transition: backgroundcolor, 10s;
+    cursor: pointer;
+
+}
+
+.landingpgetext {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 447px;
+    height: 377px;
+}
+
+.hellotext {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'NEXT ART';
+}
+
+.introtext {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.paragraphtext {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Arodora Pro';
+    line-height: 21px;
+    font-style: normal;
+}
+
+.btntext {
+    background-color: rgb(224, 98, 119);
+    color: white;
+    width: 200px;
+    height: 47px;
+    margin-top: 15px;
+    font-family: 'NEXT ART';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.landingpageimg {
+    position: relative;
+}
+
+.img1 {
+    width: 575px;
+    height: 575px;
+    top: -450px;
+    position: relative;
+    left: 550px;
+    animation: rotate 4s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.img2 {
+    width: 400px;
+    height: 500px;
+    top: -430px;
+    position: absolute;
+    left: 650px;
+}
+
+
+/* Skills styling */
+
+.skillbg {
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    height: 700px;
+}
+
+#iconskill {
+    color: rgb(215, 99, 118);
+    font-size: 100px;
+    display: block;
+}
+
+
+
+.btnskill {
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 270px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    border-radius: 100px;
+
+}
+
+
+/* About me styling */
+
+.aboutmebg {
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    height: 800px;
+    overflow: hidden;
+}
+
+#whitecircle {
+    position: absolute;
+    width: 792px;
+    height: 792px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+
+#yellowcircle {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+    left: 800px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+#bluecircle {
+    position: absolute;
+    width: 486px;
+    height: 486px;
+    left: 750px;
+    top: 400px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.aboutmetext {
+    background-color: black;
+    width: 496px;
+    height: 700px; 
+    margin-left: 400px;
+    z-index: 2;
+    margin-top: 15px;
+} 
+
+.aboutmehead {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ptext {
+    color: white;
+    font-family: Arodora Pro;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 420px;
+    height: 696px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+}
+
+#soloimg {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 100px;
+    top: 80px;
+}
+
+#soloimg2 {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 100px;
+    top: 500px;
+}
+
+#soloimg3 {
+    position: absolute;
+    width: 350x;
+    height: 350px;
+    left: 950px;
+    top: 250px;
+}
+
+
+/* Home page About me designs */
+
+#soloimgindex {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 100px;
+    top: 1300px;
+}
+
+#soloimg2index {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 100px;
+    top: 1700px;
+}
+
+#soloimg3index {
+    position: absolute;
+    width: 350x;
+    height: 350px;
+    left: 900px;
+    top: 1400px;
+}
+
+#bluecircle2 {
+    position: absolute;
+    width: 486px;
+    height: 486px;
+    left: 700px;
+    top: 1600px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+
+/* Projects secton styling */
+
+.bgprojects {
+    background-color: black;
+    height: 1150px;
+}
+
+
+.projectheading {
+    color: rgb(224, 99, 180);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: -20px;
+}
+
+
+.batcha {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    margin-left: 150px;
+    font-family: 'Pacifico', cursive;
+}
+
+.imageprojectbg {
+    width: 400px;
+    height: 400px;
+    background-color: #414141;
+    color: white;
+    border-radius: 15px;
+}
+
+.pproject {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imageproject {
+    width: 300px;
+    height: 200px;
+    margin: 25px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+#specialcase {
+    margin-left: 100px;
+}
+
+.btnclick {
+    background-color: rgb(194, 73, 162);
+    width: 200px;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    margin-top: 500px;
+    margin-left: -900px;
+    display: flex;
+}
+
+
+/* Contact me Styling */
+.contactbg {
+    background-color: rgba(31, 30, 30, 0.913);
+    height: 1300px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.firstul {
+    margin-left: 300px;
+    text-decoration: none;
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: black;
+    width: 700px;
+    text-align: center;
+    
+}
+
+
+#linkcontact {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    border: 2px solid black;
+    font-family: 'Noto Sans Mono', monospace;
+
+    
+}
+
+.firstul, .idp, .idp:hover {
+    background-color: black;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.idp:hover{
+    background-color: gray;
+    box-shadow: 10px 10px 8px white;
+    cursor: pointer;
+}
+
+.firstul, .idp::after {
+    color:gray;
+    opacity: 0.8;
+}
+
+#spec {
+    width: 700px;
+    height: 700px;
+    left: -100px;
+}
+
+#touch {
+    color: black;
+    border: 2px solid;
+}
+
+.btnspec1 {
+    width: 300px;
+    height: 400px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    border: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.btnspec2 {
+    width: 100px;
+    height: 50px;
+    border: 10px;
+    color: white;
+    border-radius: 15px;
+    background-color: gray;
+
+}
+
+.btnspec1, .btnspec2 {
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+
+/* Responsiiveness using media query */
